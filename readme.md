@@ -5,6 +5,7 @@ bet spele tiek beigta kad speletajs sasniedz 20 punktus.
 mapju struktūra:
 
 datorika 2 tema
+  -mape-26
     -index.html
     -atteli
       -varonis.png
