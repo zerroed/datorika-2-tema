@@ -1,4 +1,4 @@
-kuiļa simulators
+kuiļa simulators,
 Kuiļa simulatora merķis ir savakt pec iespejas vairak punktu noteikta laika, 
 bet spele tiek beigta kad speletajs sasniedz 20 punktus.
 
