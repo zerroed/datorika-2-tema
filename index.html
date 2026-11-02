@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mana spēle</title>
+<title>Kuiļa dzīve</title>
 <style>
 /* Pamata izkārtojums — šīs rindas nemaini */
 body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
@@ -13,47 +13,55 @@ img, audio { max-width: 100%; }
 
 /* NOFORMĒ ŠEIT: pielieto 2.1. un 2.2. nodarbībā apgūto CSS */
 body {
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #d6d5d5;
+  color: #6b0000;
 }
 
 h1 {
-  color: #222222;
+  color: #8c0000;
+font-size: 40px;
 }
 
 .noteikumi {
-  background-color: #f1f5f9;
+  background-color: #c0cfdd;
   color: #222222;
   padding: 12px;
 }
 
 .laukums {
   width: 360px;
-  padding: 12px;
-  border: 2px solid #94a3b8;
+  padding: 20px;
+  border: 6px dashed #94a3b8;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 100%;
+  text-align: center;
   background-color: #f8fafc;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #245b91;
+  background-color: #132a41;
   color: #ffffff;
+  border-radius: 8px;
   border: 0;
 }
+button:hover { outline: 5px solid #4d5662; }
 </style>
 </head>
 <body>
-<h1>Spēles nosaukums</h1>
+<h1>Kuiļa dzīve</h1>
 <p>Īss spēles mērķa apraksts spēlētājam.</p>
 <section class="noteikumi">
   <h2>Noteikumi</h2>
-  <p>Apraksti, kā spēlētājs šajā lapā iegūst punktus un noklausās skaņu.</p>
+  <p>Ergo ir parasts kuilis, viņam ir javac punkti un jameiģina vinēt</p>
+  <p>Ergo vinē kad savac 20 punktus</p>
 </section>
 <div class="laukums">
   <h2>Spēles laukums</h2>
-  <img src="atteli/varonis.svg" alt="Spēles varonis" width="128">
-  <p>Skaņas efekta nozīme spēlē:</p>
-  <audio controls src="skanas/klikskis.wav"></audio>
+  <img src="atteli/varonis.png" alt="Ergo" width="128">
+  <p>Punktu vajadziga daudzuma sasniegšana:</p>
+  <audio controls src="skanas/wewe.mp3"></audio>
   <p id="punkti">Punkti: 0</p>
   <button onclick="savakt()">Savākt punktu</button>
 </div>
